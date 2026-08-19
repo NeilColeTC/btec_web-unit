@@ -31,6 +31,11 @@ learner-resources/
     technique map, development process, testing and optimisation examples,
     and assessment-boundary guidance
 
+learner-activities/
+    stage comparison, design-decision investigation, accessibility audit,
+    testing workbook, performance investigation, debugging and extension
+    challenges, and the transition back to independent client-led development
+
 teacher-notes/
     specification mapping, teaching sequence, assessment-boundary guidance,
     and Git/GitHub workflow
@@ -49,6 +54,12 @@ Develops the same pages using external CSS, custom properties, spacing, typograp
 
 ### Stage 3 – JavaScript & Refinement
 Adds purposeful client-side behaviour including a time-based greeting, persistent theme preference, responsive menu, form validation and scroll-to-top interaction. The scripting demonstrates functions, parameters, decisions, events, methods, arrays, iteration and DOM manipulation.
+
+## Learner activity pack
+
+The `learner-activities/` folder is designed to make the exemplar an object of investigation rather than a template to reproduce. Activities ask learners to compare stages, justify technical decisions, audit accessibility, plan and record testing, investigate performance, diagnose faults and attempt independent extensions.
+
+The final `now-build-yours.md` activity explicitly transitions learners away from Hot Wheels and back to their own client requirements.
 
 ## How learners should use the exemplar
 
