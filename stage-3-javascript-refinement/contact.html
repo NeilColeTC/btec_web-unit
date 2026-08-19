@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Example HTML contact form demonstrating common form controls.">
+    <meta name="author" content="BTEC Unit 6 teaching exemplar">
+    <title>Contact | Hot Wheels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p><strong>Hot Wheels</strong></p>
+        <div class="header-controls">
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme">Dark mode</button>
+            <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+                <span aria-hidden="true">☰</span>
+                <span class="visually-hidden">Open navigation menu</span>
+            </button>
+        </div>
+        <nav id="main-navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <p>This demonstration form shows a range of standard HTML form controls. It does not send information to a server.</p>
+
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+
+            <form id="contact-form" action="#" method="post" novalidate>
+                <fieldset>
+                    <legend>Your details</legend>
+
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your enquiry</legend>
+
+                    <p>What is your enquiry about?</p>
+                    <p><input type="radio" id="planning" name="enquiry-type" value="planning"><label for="planning">Website planning</label></p>
+                    <p><input type="radio" id="design" name="enquiry-type" value="design"><label for="design">Responsive design</label></p>
+                    <p><input type="radio" id="testing" name="enquiry-type" value="testing"><label for="testing">Website testing</label></p>
+
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                    </p>
+
+                    <p><input type="checkbox" id="updates" name="updates"><label for="updates">I would like to receive example project updates</label></p>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <button id="scroll-top" class="scroll-top" type="button" aria-label="Scroll to top">↑</button>
+
+    <footer><p>&copy; 2026 Hot Wheels. Teaching exemplar.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
