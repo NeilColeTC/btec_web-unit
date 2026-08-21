@@ -61,7 +61,7 @@ Then model a comparison between two neutral examples before learners apply the m
 3. User requirements could include being user-friendly, consistent, navigable, customisable or flexible.
 4. Audiences have different goals, knowledge, needs and contexts, so design choices should support those differences.
 5. **Usability:** how effectively and efficiently users can interact with a website and achieve their goals.
-6. **White space:** intentionally unused space around/between elements; it does not have to be white.
+6. **White space:** intentionally unused space around or between elements; it does not have to be white.
 7. Navigation examples include menus, hyperlinks, search, breadcrumbs, buttons and footer links.
 8. Consistency makes controls and structures more predictable, reducing the amount users need to relearn.
 9. Accessibility examples include readable text, sufficient contrast, meaningful alt text, keyboard access and clear labels.
